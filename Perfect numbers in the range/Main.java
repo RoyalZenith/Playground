@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   // Try out your code here
+  int a,b;
+  cin>>a>>b;
+  
+  for(int i=a;i<=b;i++)
+  {
+    int sum=0;
+    for(int j=1;j<i;j++)
+    {
+      
+      if(i%j==0)
+      {
+        sum=sum+j;
+      }
+     
+    }
+     
+    if(i==sum)
+    {
+      cout<<i<<" ";
+      
+    }
+    
+  }
+ 
+    return 0;
+}

@@ -1,0 +1,5 @@
+a= int(input())
+b= int(input())
+c = list(map(int , input().split()))
+c.sort()
+print(sum(c[-b:]))
